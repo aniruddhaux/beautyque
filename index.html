@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Beauty que collection</title>
+<link rel="shortcut icon" href="img/fav-icon.png" type="img/fav.png"/>
+
+<!-- css -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/animate.css">
+<link href="css/animate.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" />
+<link href="css/media.css" rel="stylesheet" />
+
+<!-- font -->
+<link href="https://fonts.googleapis.com/css?family=Grand+Hotel" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.js"></script>
+<script src="js/popup.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/main.js"></script>
+<script src="js/wow.min.js"></script>
+<script>wow = new WOW({}).init();</script>
+
+
+
+<script type="text/javascript">
+var affixElement = '#header';
+
+$(affixElement).affix({
+  offset: {
+    // Distance of between element and top page
+    top: function () {
+      return (this.top = $(affixElement).offset().top)
+    },
+    // when start #footer 
+    bottom: function () { 
+      return (this.bottom = $('#footer').outerHeight(true))
+    }
+  }
+});
+</script>
+
+
+
+</head>
+
+<body>
+<header id="header">
+  <nav class="navbar navbar-default navbar-static-top">
+    <div class="container-fluid discount_store">
+      <div class="container">
+        <div class="top_section">
+          <ul>
+            <li class="discount"><a href="#">Discount <span>Store</span></a></li>
+            <li><a href="#">Archive</a></li>
+            <li><a href="#">Checkout</a></li>
+            <li><a href="#">Blog</a> </li>
+            <li><a href="#">My Account</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container"> 
+      
+      <!-- start header top section -->
+      
+      <div class="header-top">
+        <div class="panel-left"> <a href="index.html"><img src="img/logo.png" alt=""/> </a></div>
+        <div class="panel-right">
+          <div class="header-search-section">
+            <form id="tfnewsearch" method="post" action="http://www.google.com">
+              <input class="tftextinput" name="q" size="21" maxlength="120" type="text" placeholder="Search..">
+              <input value="" class="tfbutton" type="submit">
+            </form>
+          </div>
+          <div class="header-cart-all-section">
+            <ul>
+              <li><a href="#"> <i class="fa fa-shopping-cart" aria-hidden="true"></i> <span class="add-cart">0</span>
+                <input type="button" value="Cart" id="button-cart" class="button" /></a>
+              </li>
+              <li><a href="#" onclick="addToWishList;"> <i class="fa fa-heart-o" aria-hidden="true"></i> <i class="fa fa-user-o" aria-hidden="true"></i> <span class="wish-text">Wish<br/>
+                List</span></a> </li>
+              <li> <i class="fa fa-user" aria-hidden="true"></i><a class="join" href="#">join</a> <a class="sign-in" href="#">sign in</a>
+                <p>la boutique</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/.container--> 
+    
+    <!-- for responsive menu button -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+    </div>
+    <div class="container-fluid Navigation-main" data-spy="affix" data-offset-top="112">
+      <div class="container">
+        <div class="navbar-collapse collapse">
+          <div class="menu">
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation"><a href="index.html" class="active">Home</a></li>
+              <li role="presentation"><a href="about.html">About Us</a></li>
+              <li class="dropdown"><a href="#">Collection <span class="glyphicon glyphicon-chevron-right"></span></a>
+                <div class="dropdown-content">
+                
+                  <ul class="drop_down_sub_menu">
+                    <li><a href="collection.html">silk</a></li>
+                    <li class="dropdown"><a href="collection.html">red</a></li>
+                    <li><a href="collection.html">pink</a></li>
+                    <li><a href="collection.html">white</a></li>
+                  </ul>
+                    <ul class="mega-menu-content">
+                    <h3>Lorem ipsum <span>dolor</span></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate mollis tellus, ac imperdiet lacus faucibus ut. Morbi euismod, elit vitae eleifend</p>
+                    </ul>
+                 
+                  
+                   <ul class="dropdown-image-in-the-col-page">
+                   <li>
+                    <img src="img/collection-img-2.jpg" alt=""/><a class="view-more-mega-menu" href="collection.html">View more</a></li>
+                  </ul>
+                 
+                </div>
+              </li>
+              
+              
+              <li role="presentation"><a href="contact.html">Contact us</a></li>
+            </ul>
+            <ul class="social-icon">
+              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a href="#"> <i class="fa fa-google-plus" aria-hidden="true"></i> </a></li>
+              <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--/.container--> 
+    </div>
+  </nav>
+  <!--/nav--> 
+</header>
+<!--/header--> 
+
+<!--******* start banner section *******-->
+
+<div class="slider">
+  <div id="about-slider">
+    <div id="carousel-slider" class="carousel slide" data-ride="carousel"> 
+      <!-- Indicators -->
+      <ol class="carousel-indicators visible-xs">
+        <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-slider" data-slide-to="1"></li>
+        <li data-target="#carousel-slider" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active"> <img src="img/banner.jpg" class="img-responsive" alt="">
+          <div class="carousel-caption banner-heading">
+            <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
+              <h2>La Boutique's<br/>
+                <span>saree collection</span></h2>
+            </div>
+            <div class="">
+              <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
+                <p>stylish woocommerce wordpress theme, unlimited colours,
+                  huge customisation options, mobile-friendly design,</p>
+              </div>
+            </div>
+            <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.9s"> <a href="#">more collection</a> </div>
+          </div>
+        </div>
+        <div class="item"> <img src="img/banner.jpg" class="img-responsive" alt="">
+          <div class="carousel-caption banner-heading">
+            <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
+              <h2>La Boutique's<br/>
+                <span>saree collection</span></h2>
+            </div>
+            <div class="">
+              <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
+                <p>stylish woocommerce wordpress theme, unlimited colours,
+                  huge customisation options, mobile-friendly design,</p>
+              </div>
+            </div>
+            <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.9s"> <a href="#">more collection</a> </div>
+          </div>
+        </div>
+        <div class="item"> <img src="img/banner.jpg" class="img-responsive" alt="">
+          <div class="carousel-caption banner-heading">
+            <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
+              <h2>La Boutique's<br/>
+                <span>saree collection</span></h2>
+            </div>
+            <div class="">
+              <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
+                <p>stylish woocommerce wordpress theme, unlimited colours,
+                  huge customisation options, mobile-friendly design,</p>
+              </div>
+            </div>
+            <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.9s"> <a href="#">more collection</a> </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control hidden-xs" href="#carousel-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a> <a class="right carousel-control hidden-xs" href="#carousel-slider" data-slide="next"><i class="fa fa-angle-right"></i></a> </div>
+    <!--/#carousel-slider--> 
+  </div>
+  <!--/#about-slider--> 
+</div>
+<!--/#slider--> 
+
+<!--***** start icon section *********-->
+
+<section id="icon_part" class="container-fluid">
+  <div class="container">
+    <div class="media-icon wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="200ms"> <img src="img/icon-1.png" alt=""/>
+      <h4>MONEY BACK<br/>
+        GUARANTEE</h4>
+    </div>
+    <div class="media-icon wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="300ms"> <img src="img/icon-2.png" alt=""/>
+      <h4>Secure<br/>
+        Payment</h4>
+    </div>
+    <div class="media-icon wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="400ms"> <img src="img/icon-3.png" alt=""/>
+      <h4>COD available<br/>
+        <span>(Cash On Delivery)</span></h4>
+    </div>
+    <div class="media-icon wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="500ms"> <img src="img/icon-4.png" alt=""/>
+      <h4>Pay Pal Accepted<br/>
+        <span>(For Overseas Patrons)</span></h4>
+    </div>
+    <div class="media-icon wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="600ms"> <img src="img/icon-5.png" alt=""/>
+      <h4>ONLINE <br/>
+        SUPPORT 24/7</h4>
+    </div>
+  </div>
+</section>
+
+<!--******** start collection part-1 *********-->
+
+<section id="collection-part-1" class="container-fluid">
+  <div class="page-heading-for-all">
+    <h2>Our Saree Collcetions</h2>
+    <img src="img/heading-bottom-icon.png" alt=""/> </div>
+    
+    
+  <div class="meadia_gallary">
+    <div class="collection-first-section">
+      <a href="#" class="collection-part-for-hover"> <img src="img/collection-img-1.jpg" alt=""/>
+        <span class="figcaption"> <span>DESIGNER SAREE</span> </span></a>
+      </div>
+   
+    
+    <!--close div first-section -->
+    
+    <div class="collection-second-section">
+      <div class="midst-collection-part">
+        <a href="#" class="collection-part-for-hover collection-midst-part-inn"><img src="img/collection-img-2.jpg" alt=""/>
+          <span class="figcaption"> <span>DESIGNER SAREE</span></span>
+       </a>
+        <a href="#" class="collection-part-for-hover collection-midst-part-inn"><img src="img/collection-img-3.jpg" alt=""/>
+          <span class="figcaption"> <span>DESIGNER SAREE</span> </span>
+        </a>
+      </div>
+      <div class="collection-video"> <img class="collection-part-1-video show-moda" src="img/video-img-2.jpg" alt=""/> </div>
+    </div>
+    
+    <!--close div second-section -->
+    
+    <div class="collection-third-section">
+      <a href="#" class="collection-part-for-hover"><img src="img/collection-img-4.jpg" alt=""/>
+        <span class="figcaption"> <span>DESIGNER SAREE</span> </span>
+
+      </a>
+    </div>
+    
+    <!--close div third-section --> 
+</div>
+</section>
+
+<!--******** start make idea *********-->
+<section id="make-idea" class="container-fluid">
+  <div class="container">
+    <div class="make-text">
+      <h3>WE MAKE YOUR IDEAS INTO REALITY</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+    </div>
+    <div class="make-view-button"> <a href="#">view details</a> </div>
+  </div>
+</section>
+
+<!--******** start other collection again *********-->
+<section id="other-collection" class="container-fluid">
+  <div class="page-heading-for-all">
+    <h2>Other Collcetions</h2>
+    <img src="img/heading-bottom-icon.png" alt=""/> </div>
+  <div class="meadia_gallary">
+    <div class="other-collection-first-section">
+      <a href="#" class="collection-part-for-hover"> <img src="img/other-collection-img-1.jpg" alt=""/>
+        <span class="figcaption"> <span>DESIGNER top</span> </span>
+      </a>
+    </div>
+    
+    <!--close div other-first-section -->
+    
+    <div class="other-collection-second-section">
+      <div class="other-midst-collection-part">
+        <a href="#" class="collection-part-for-hover other-collection-midst-first-part-inn"><img src="img/other-collection-img-2.jpg" alt=""/>
+          <span class="figcaption"> <span>DESIGNER top</span> </span>
+        </a>
+        <a href="#" class="collection-part-for-hover other-collection-midst-second-part-inn"><img src="img/other-collection-img-3.jpg" alt=""/>
+          <span class="figcaption"> <span>DESIGNER top</span> </span>
+        </a>
+      </div>
+      <div class="other-midst-collection-part">
+        <div class="collection-video other-collection-midst-second-part-inn"> <img class="collection-part-1-video show-moda-2" src="img/video-img-1.jpg" alt=""/> </div>
+        <a href="#" class="collection-part-for-hover other-collection-midst-first-part-inn foe-responsive-collection-section"><img src="img/other-collection-img-5.jpg" alt=""/>
+          <span class="figcaption"> <span>DESIGNER top</span> </span>
+        </a>
+      </div>
+    </div>
+    
+    <!--close div other-second-section -->
+    
+    <div class="other-collection-third-section">
+      <a href="#" class="collection-part-for-hover"><img src="img/other-collection-img-4.jpg" alt=""/>
+        <span class="figcaption"> <span>DESIGNER top</span> </span>
+      </a>
+    </div>
+   
+     </div>
+    <!--close div other-third-section --> 
+ 
+</section>
+
+<!--******** latest product *********-->
+<section id="latest-product" class="container-fluid">
+  <div class="page-heading-for-all">
+    <h2>Latest Products</h2>
+    <img src="img/heading-bottom-icon.png" alt=""/> </div>
+  <div class="container">
+    <div class="product-all">
+      <div class="product">
+        <div class="product-image"> <img src="img/product-image-1.jpg" alt=""/>
+          <div class="product-image-hover">
+            <div class="product-image-hover-link-for-all">
+              <div class="product-image-background"> <a href="#"> <i class="fa fa-search product-icon" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-heart-o product-icon" aria-hidden="true"></i></a> <a href="#"> <i class="fa fa-shopping-cart product-icon product-cart" aria-hidden="true"></i></a> </div>
+            </div>
+          </div>
+        </div>
+        <div class="product-text">
+          <p>Lorem Ipsum is simply dummy text</p>
+        </div>
+        <div class="product-reviews"> <span>$5.37</span>
+          <div class="star-icon"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star empty" aria-hidden="true"></i></div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product-image"> <img src="img/product-image-2.jpg" alt=""/>
+          <div class="product-image-hover">
+            <div class="product-image-hover-link-for-all">
+              <div class="product-image-background"> <a href="#"> <i class="fa fa-search product-icon" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-heart-o product-icon" aria-hidden="true"></i></a> <a href="#"> <i class="fa fa-shopping-cart product-icon product-cart" aria-hidden="true"></i></a> </div>
+            </div>
+          </div>
+        </div>
+        <div class="product-text">
+          <p>Lorem Ipsum is simply dummy text</p>
+        </div>
+        <div class="product-reviews"> <span>$5.37</span>
+          <div class="star-icon"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star empty" aria-hidden="true"></i></div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product-image"> <img src="img/product-image-3.jpg" alt=""/>
+          <div class="product-image-hover">
+            <div class="product-image-hover-link-for-all">
+              <div class="product-image-background"> <a href="#"> <i class="fa fa-search product-icon" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-heart-o product-icon" aria-hidden="true"></i></a> <a href="#"> <i class="fa fa-shopping-cart product-icon product-cart" aria-hidden="true"></i></a> </div>
+            </div>
+          </div>
+        </div>
+        <div class="product-text">
+          <p>Lorem Ipsum is simply dummy text</p>
+        </div>
+        <div class="product-reviews"> <span>$5.37</span>
+          <div class="star-icon"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star empty" aria-hidden="true"></i></div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product-image"> <img src="img/product-image-4.jpg" alt=""/>
+          <div class="product-image-hover">
+            <div class="product-image-hover-link-for-all">
+              <div class="product-image-background"> <a href="#"> <i class="fa fa-search product-icon" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-heart-o product-icon" aria-hidden="true"></i></a> <a href="#"> <i class="fa fa-shopping-cart product-icon product-cart" aria-hidden="true"></i></a> </div>
+            </div>
+          </div>
+        </div>
+        <div class="product-text">
+          <p>Lorem Ipsum is simply dummy text</p>
+        </div>
+        <div class="product-reviews"> <span>$5.37</span>
+          <div class="star-icon"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star empty" aria-hidden="true"></i></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--******** News letter *********-->
+<section id="news-letter" class="container-fluid">
+  <div class="container">
+    <div class="news-letter-social-icon">
+      <ul>
+        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+    <div class="news-letter">
+      <h3>NEWSLETTER</h3>
+      <form action="anchor.php">
+        <ul>
+          <li class="name">
+            <input name="name" placeholder="Enter your email address" type="text">
+          </li>
+          <li class="suscribe_button">
+            <input class="button_for_suscribe" value="subscribe" type="submit">
+          </li>
+        </ul>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!--******** start footer *********-->
+<footer id="Contact-us" class="container-fluid">
+  <div class="container footer_for_padding">
+    <div class="footer_row first wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <h3>My Account</h3>
+      <ul>
+        <li><a href="#">About us</a> </li>
+        <li><a href="#">Contact us</a> </li>
+        <li><a href="#">My account</a> </li>
+        <li><a href="#">Orders history</a> </li>
+        <li><a href="#">Advanced search</a> </li>
+      </ul>
+    </div>
+    <div class="footer_row second wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+      <h3>Contact Information</h3>
+      <ul>
+        <li><i class="fa fa-location-arrow" aria-hidden="true"></i><span>Unit A1, 20th Floor, MG Tower 133 Hoi Bun road, Kwun Tong Lorem Ipsum</span></li>
+        <li><i class="fa fa-phone" aria-hidden="true"></i><span>+000 3125 1900</span></li>
+        <li><i class="fa fa-envelope" aria-hidden="true"></i><span>info@companyname.com</span></li>
+      </ul>
+    </div>
+    <div class="footer_row Third wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
+      <h3>Product Categories</h3>
+      <ul>
+        <li><a href="#">Lorem Ipsum </a> </li>
+        <li><a href="#">Lorem Ipsum Dummy </a> </li>
+        <li><a href="#">Lorem Ipsum Text </a> </li>
+        <li><a href="#">Lorem Ipsum Dummy </a> </li>
+        <li><a href="#">Lorem Ipsum</a> </li>
+      </ul>
+    </div>
+    <div class="footer_row fourth wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms">
+      <h3> CREDIT CARDS </h3>
+      <ul>
+        <li><a href="#">Make Payment/Check Balance </a> </li>
+        <li><a href="#">Credit Cards Offers </a> </li>
+        <li><a href="#">Apply Now </a> </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<!--start last footer-->
+
+<div class="container footer-last-section">
+  <div class="footer-last-text">
+    <p>companyname.com © 2017. All Rights Reserved. </p>
+  </div>
+  <div class="footer-last-text link-icon">
+    <ul>
+      <li><a href="#"><img src="img/footer-last-icon-1.jpg" alt=""/></a> </li>
+      <li><a href="#"><img src="img/footer-last-icon-2.jpg" alt=""/></a> </li>
+      <li><a href="#"><img src="img/footer-last-icon-3.jpg" alt=""/></a> </li>
+      <li><a href="#"><img src="img/footer-last-icon-4.jpg" alt=""/></a> </li>
+      <li><a href="#"><img src="img/footer-last-icon-5.jpg" alt=""/></a> </li>
+    </ul>
+  </div>
+</div>
+
+<!-- gallary popup  --> 
+
+<script>
+ jQuery(document).ready(function ($) {
+            $('.show-moda').on('click', function () {
+                $.showYtVideo({
+                    videoId: 'uVdV-lxRPFo'
+                });
+            });
+        });
+</script> 
+<script>
+ jQuery(document).ready(function ($) {
+            $('.show-moda-2').on('click', function () {
+                $.showYtVideo2({
+                    videoId: 'TWDpW3ZfIYU'
+                });
+            });
+        });
+</script>
+</body>
+</html>
+
+
+
+
+
+</body>
+</html>

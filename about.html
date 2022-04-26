@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Beauty que about us</title>
+<link rel="shortcut icon" href="img/fav-icon.png" type="img/fav.png"/>
+
+<!-- css -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/animate.css">
+<link href="css/animate.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" />
+<link href="css/media.css" rel="stylesheet" />
+
+<!-- font -->
+<link href="https://fonts.googleapis.com/css?family=Grand+Hotel" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.js"></script>
+<script src="js/popup.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/main.js"></script>
+<script src="js/wow.min.js"></script>
+<script>wow = new WOW({}).init();</script>
+<script type="text/javascript">
+var affixElement = '#header';
+
+$(affixElement).affix({
+  offset: {
+    // Distance of between element and top page
+    top: function () {
+      return (this.top = $(affixElement).offset().top)
+    },
+    // when start #footer 
+    bottom: function () { 
+      return (this.bottom = $('#footer').outerHeight(true))
+    }
+  }
+});
+</script>
+</head>
+<body>
+<header id="header">
+  <nav class="navbar navbar-default navbar-static-top">
+    <div class="container-fluid discount_store">
+      <div class="container">
+        <div class="top_section">
+          <ul>
+            <li class="discount"><a href="#">Discount <span>Store</span></a></li>
+            <li><a href="#">Archive</a></li>
+            <li><a href="#">Checkout</a></li>
+            <li><a href="#">Blog</a> </li>
+            <li><a href="#">My Account</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container"> 
+      
+      <!-- start header top section -->
+      
+      <div class="header-top">
+        <div class="panel-left"> <a href="index.html"><img src="img/logo.png" alt=""/> </a></div>
+        <div class="panel-right">
+          <div class="header-search-section">
+            <form id="tfnewsearch" method="post" action="http://www.google.com">
+              <input class="tftextinput" name="q" size="21" maxlength="120" type="text" placeholder="Search..">
+              <input value="" class="tfbutton" type="submit">
+            </form>
+          </div>
+          <div class="header-cart-all-section">
+            <ul>
+              <li><a href="#"> <i class="fa fa-shopping-cart" aria-hidden="true"></i> <span class="add-cart">0</span>
+                <input type="button" value="Cart" id="button-cart" class="button" /></a>
+              </li>
+              <li><a href="#" onclick="addToWishList;"> <i class="fa fa-heart-o" aria-hidden="true"></i> <i class="fa fa-user-o" aria-hidden="true"></i> <span class="wish-text">Wish<br/>
+                List</span></a> </li>
+              <li> <i class="fa fa-user" aria-hidden="true"></i><a class="join" href="#">join</a> <a class="sign-in" href="#">sign in</a>
+                <p>la boutique</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/.container--> 
+    
+    <!-- for responsive menu button -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+    </div>
+    <div class="container-fluid Navigation-main" data-spy="affix" data-offset-top="112">
+      <div class="container">
+        <div class="navbar-collapse collapse">
+          <div class="menu">
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation"><a href="index.html">Home</a></li>
+              <li role="presentation"><a href="about.html" class="active">About Us</a></li>
+              <li class="dropdown"><a href="#">Collection <span class="glyphicon glyphicon-chevron-right"></span></a>
+                <div class="dropdown-content">
+                
+                  <ul class="drop_down_sub_menu">
+                    <li><a href="collection.html">silk</a></li>
+                    <li class="dropdown"><a href="collection.html">red</a></li>
+                    <li><a href="collection.html">pink</a></li>
+                    <li><a href="collection.html">white</a></li>
+                  </ul>
+                    <ul class="mega-menu-content">
+                    <h3>Lorem ipsum <span>dolor</span></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate mollis tellus, ac imperdiet lacus faucibus ut. Morbi euismod, elit vitae eleifend</p>
+                    </ul>
+                 
+                  
+                   <ul class="dropdown-image-in-the-col-page">
+                   <li>
+                    <img src="img/collection-img-2.jpg" alt=""/><a class="view-more-mega-menu" href="collection.html">View more</a></li>
+                  </ul>
+                 
+                </div>
+              </li>
+              
+              
+              <li role="presentation"><a href="contact.html">Contact us</a></li>
+            </ul>
+            <ul class="social-icon">
+              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a href="#"> <i class="fa fa-google-plus" aria-hidden="true"></i> </a></li>
+              <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--/.container--> 
+    </div>
+  </nav>
+  <!--/nav--> 
+</header>
+<!--/header-->
+
+<!--******* start banner section *******-->
+<section id="about-us-banner-section" class="container-fluid"> <img src="img/about-us-banner.jpg" alt=""/>
+  <div class="container">
+    <div class="about-us-banner-heading">
+      <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
+        <h2>about us</h2>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- start about heading and content section -->
+
+<section id="about-content" class="container-fluid">
+  <div class="container">
+    <div class="page-heading-for-all">
+      <h2>About us</h2>
+      
+      <img src="img/heading-bottom-icon.png" alt=""/> </div>
+ 
+ 
+  <div class="pragraph-sec">
+ 
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce <strong>vestibulum arcu</strong> sit amet arcu blandit, non dapibus sem volutpat. Sed sit amet risus malesuada, porttitor leo eget, congue velit. In hac habitasse platea dictumst. Nullam nunc lectus, rhoncus a venenatis id, consequat in velit. Quisque ultrices eleifend commodo. Aenean condimentum, dui sed aliquet placerat, justo felis semper ligula, sed commodo lectus nunc sed libero. In vel dui eu magna dictum mollis quis et elit. Cras at dapibus ante. Mauris sagittis ante lectus, in auctor magna consectetur id.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce <strong>vestibulum arcu</strong> sit amet arcu blandit, non dapibus sem volutpat. Sed sit amet risus malesuada, porttitor leo eget, congue velit. In hac habitasse platea dictumst. Nullam nunc lectus, rhoncus a venenatis id, consequat in velit. Quisque ultrices eleifend commodo. Aenean condimentum, dui sed aliquet placerat, justo felis semper ligula, sed commodo lectus nunc sed libero. </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce <strong>vestibulum arcu</strong> sit amet arcu blandit, non dapibus sem volutpat. Sed sit amet risus malesuada, porttitor leo eget, congue velit. In hac habitasse platea dictumst. Nullam nunc lectus, rhoncus a venenatis id, consequat in velit.</p>
+ </div>
+ 
+   <div class="for-abt-body-section">
+  <img src="img/collection-img-1.jpg" alt=""/>
+
+</div>
+ 
+  </div>
+</section>
+
+
+<!-- start about us clint section -->
+
+<section id="about-clint" class="container-fluid">
+  <div class="container">
+    <div class="page-heading-for-all">
+      <h2>Our clints</h2>
+      <img src="img/heading-bottom-icon.png" alt=""/> </div>
+ 
+  <div id="myCarousel" class="carousel slide about-us-slider" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+      <div class="clint-testimonial">
+      <img src="img/clint-1.png" alt=""/>
+      <p><img src="img/testimonial-icon.png" alt=""/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lorem risus, auctor ac felis ac, ultricies viverra sem. Maecenas luctus nunc in massa venenatis, quis varius magna porta. Ut ac libero ex. Donec fringilla nulla ut nibh efficitur, at condimentum tortor dapibus. Fusce eget scelerisque felis. Proin
+       ac elit at neque aliquet auctor. Phasellus fermentum, est eget iaculis convallis, ligula urna posuere massa, eget malesuada ex velit non erat.<img src="img/testimonial-icon-2.png" alt=""/></p>
+      </div>
+      </div>
+
+      <div class="item">
+      <div class="clint-testimonial">
+      <img src="img/clint-2.png" alt=""/>
+      <p><img src="img/testimonial-icon.png" alt=""/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lorem risus, auctor ac felis ac, ultricies viverra sem. Maecenas luctus nunc in massa venenatis, quis varius magna porta. Ut ac libero ex. Donec fringilla nulla ut nibh efficitur, at condimentum tortor dapibus. Fusce eget scelerisque felis. Proin
+       ac elit at neque aliquet auctor. Phasellus fermentum, est eget iaculis convallis, ligula urna posuere massa, eget malesuada ex velit non erat.<img src="img/testimonial-icon-2.png" alt=""/></p>
+      </div>
+      </div>
+      
+      <div class="item">
+      <div class="clint-testimonial">
+      <img src="img/clint-3.png" alt=""/>
+      <p><img src="img/testimonial-icon.png" alt=""/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lorem risus, auctor ac felis ac, ultricies viverra sem. Maecenas luctus nunc in massa venenatis, quis varius magna porta. Ut ac libero ex. Donec fringilla nulla ut nibh efficitur, at condimentum tortor dapibus. Fusce eget scelerisque felis. Proin
+       ac elit at neque aliquet auctor. Phasellus fermentum, est eget iaculis convallis, ligula urna posuere massa, eget malesuada ex velit non erat.<img src="img/testimonial-icon-2.png" alt=""/></p>
+      </div>
+      </div>
+      
+
+      <div class="item">
+      <div class="clint-testimonial">
+      <img src="img/clint-4.png" alt=""/>
+      <p><img src="img/testimonial-icon.png" alt=""/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lorem risus, auctor ac felis ac, ultricies viverra sem. Maecenas luctus nunc in massa venenatis, quis varius magna porta. Ut ac libero ex. Donec fringilla nulla ut nibh efficitur, at condimentum tortor dapibus. Fusce eget scelerisque felis. Proin
+       ac elit at neque aliquet auctor. Phasellus fermentum, est eget iaculis convallis, ligula urna posuere massa, eget malesuada ex velit non erat.<img src="img/testimonial-icon-2.png" alt=""/></p>
+      </div>
+      </div>
+    </div>
+
+   
+  </div>
+</div>
+ 
+ 
+ 
+</section>
+
+
+
+
+
+
+<!--******** start footer *********-->
+<footer id="Contact-us" class="container-fluid">
+  <div class="container footer_for_padding">
+    <div class="footer_row first wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <h3>My Account</h3>
+      <ul>
+        <li><a href="#">About us</a> </li>
+        <li><a href="#">Contact us</a> </li>
+        <li><a href="#">My account</a> </li>
+        <li><a href="#">Orders history</a> </li>
+        <li><a href="#">Advanced search</a> </li>
+      </ul>
+    </div>
+    <div class="footer_row second wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+      <h3>Contact Information</h3>
+      <ul>
+        <li><i class="fa fa-location-arrow" aria-hidden="true"></i><span>Unit A1, 20th Floor, MG Tower 133 Hoi Bun road, Kwun Tong Lorem Ipsum</span></li>
+        <li><i class="fa fa-phone" aria-hidden="true"></i><span>+000 3125 1900</span></li>
+        <li><i class="fa fa-envelope" aria-hidden="true"></i><span>info@companyname.com</span></li>
+      </ul>
+    </div>
+    <div class="footer_row Third wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
+      <h3>Product Categories</h3>
+      <ul>
+        <li><a href="#">Lorem Ipsum </a> </li>
+        <li><a href="#">Lorem Ipsum Dummy </a> </li>
+        <li><a href="#">Lorem Ipsum Text </a> </li>
+        <li><a href="#">Lorem Ipsum Dummy </a> </li>
+        <li><a href="#">Lorem Ipsum</a> </li>
+      </ul>
+    </div>
+    <div class="footer_row fourth wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms">
+      <h3> CREDIT CARDS </h3>
+      <ul>
+        <li><a href="#">Make Payment/Check Balance </a> </li>
+        <li><a href="#">Credit Cards Offers </a> </li>
+        <li><a href="#">Apply Now </a> </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<!--start last footer-->
+
+<div class="container footer-last-section">
+  <div class="footer-last-text">
+    <p>companyname.com © 2017. All Rights Reserved. </p>
+  </div>
+  <div class="footer-last-text link-icon">
+    <ul>
+      <li><a href="#"><img src="img/footer-last-icon-1.jpg" alt=""/></a> </li>
+      <li><a href="#"><img src="img/footer-last-icon-2.jpg" alt=""/></a> </li>
+      <li><a href="#"><img src="img/footer-last-icon-3.jpg" alt=""/></a> </li>
+      <li><a href="#"><img src="img/footer-last-icon-4.jpg" alt=""/></a> </li>
+      <li><a href="#"><img src="img/footer-last-icon-5.jpg" alt=""/></a> </li>
+    </ul>
+  </div>
+</div>
+
+
+</body>
+</html>

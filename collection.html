@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Beauty que collection</title>
+<link rel="shortcut icon" href="img/fav-icon.png" type="img/fav.png"/>
+
+<!-- css -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/animate.css">
+<link href="css/animate.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" />
+<link href="css/media.css" rel="stylesheet" />
+
+<!-- font -->
+<link href="https://fonts.googleapis.com/css?family=Grand+Hotel" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.js"></script>
+<script src="js/popup.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/main.js"></script>
+<script src="js/wow.min.js"></script>
+<script>wow = new WOW({}).init();</script>
+
+
+
+<script type="text/javascript">
+var affixElement = '#header';
+
+$(affixElement).affix({
+  offset: {
+    // Distance of between element and top page
+    top: function () {
+      return (this.top = $(affixElement).offset().top)
+    },
+    // when start #footer 
+    bottom: function () { 
+      return (this.bottom = $('#footer').outerHeight(true))
+    }
+  }
+});
+</script>
+</head><body>
+<header id="header">
+  <nav class="navbar navbar-default navbar-static-top">
+    <div class="container-fluid discount_store">
+      <div class="container">
+        <div class="top_section">
+          <ul>
+            <li class="discount"><a href="#">Discount <span>Store</span></a></li>
+            <li><a href="#">Archive</a></li>
+            <li><a href="#">Checkout</a></li>
+            <li><a href="#">Blog</a> </li>
+            <li><a href="#">My Account</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container"> 
+      
+      <!-- start header top section -->
+      
+      <div class="header-top">
+        <div class="panel-left"> <a href="index.html"><img src="img/logo.png" alt=""/> </a></div>
+        <div class="panel-right">
+          <div class="header-search-section">
+            <form id="tfnewsearch" method="post" action="http://www.google.com">
+              <input class="tftextinput" name="q" size="21" maxlength="120" type="text" placeholder="Search..">
+              <input value="" class="tfbutton" type="submit">
+            </form>
+          </div>
+          <div class="header-cart-all-section">
+            <ul>
+              <li><a href="#"> <i class="fa fa-shopping-cart" aria-hidden="true"></i> <span class="add-cart">0</span>
+                <input type="button" value="Cart" id="button-cart" class="button" /></a>
+              </li>
+              <li><a href="#" onclick="addToWishList;"> <i class="fa fa-heart-o" aria-hidden="true"></i> <i class="fa fa-user-o" aria-hidden="true"></i> <span class="wish-text">Wish<br/>
+                List</span></a> </li>
+              <li> <i class="fa fa-user" aria-hidden="true"></i><a class="join" href="#">join</a> <a class="sign-in" href="#">sign in</a>
+                <p>la boutique</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/.container--> 
+    
+    <!-- for responsive menu button -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+    </div>
+    <div class="container-fluid Navigation-main" data-spy="affix" data-offset-top="112">
+      <div class="container">
+        <div class="navbar-collapse collapse">
+          <div class="menu">
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation"><a href="index.html">Home</a></li>
+              <li role="presentation"><a href="about.html">About Us</a></li>
+              <li class="dropdown"><a href="#" class="active">Collection <span class="glyphicon glyphicon-chevron-right"></span></a>
+                <div class="dropdown-content">
+                
+                  <ul class="drop_down_sub_menu">
+                    <li><a href="collection.html">silk</a></li>
+                    <li class="dropdown"><a href="collection.html">red</a></li>
+                    <li><a href="collection.html">pink</a></li>
+                    <li><a href="collection.html">white</a></li>
+                  </ul>
+                    <ul class="mega-menu-content">
+                    <h3>Lorem ipsum <span>dolor</span></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate mollis tellus, ac imperdiet lacus faucibus ut. Morbi euismod, elit vitae eleifend</p>
+                    </ul>
+                 
+                  
+                   <ul class="dropdown-image-in-the-col-page">
+                   <li>
+                    <img src="img/collection-img-2.jpg" alt=""/><a class="view-more-mega-menu" href="collection.html">View more</a></li>
+                  </ul>
+                 
+                </div>
+              </li>
+              
+              
+              <li role="presentation"><a href="contact.html">Contact us</a></li>
+            </ul>
+            <ul class="social-icon">
+              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a href="#"> <i class="fa fa-google-plus" aria-hidden="true"></i> </a></li>
+              <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--/.container--> 
+    </div>
+  </nav>
+  <!--/nav--> 
+</header>
+<!--/header--> 
+
+<!--******* start banner section *******-->
+<section id="about-us-banner-section" class="container-fluid"> <img src="img/collection-banner.jpg" alt=""/>
+  <div class="container">
+    <div class="about-us-banner-heading">
+      <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
+        <h2>Gallary</h2>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- start about heading and content section -->
+
+<section id="about-content" class="container-fluid">
+  <div class="container">
+    <div class="page-heading-for-all">
+      <h2>Gallary</h2>
+      <img src="img/heading-bottom-icon.png" alt=""/> </div>
+      
+      	
+
+
+
+ 
+
+
+
+
+
+
+<div class="collection-gallary">
+  <div class="column collection-image">
+    <img class="img-responsive" src="img/1_standard.jpg" onclick="openModal();currentSlide(1)" alt="">
+  </div>
+  <div class="column collection-image">
+    <img class="img-responsive hover-shadow cursor" src="img/2_standard.jpg" onclick="openModal();currentSlide(2)" alt="">
+  </div>
+  <div class="column collection-image">
+    <img class="img-responsive hover-shadow cursor" src="img/3_standard.jpg" onclick="openModal();currentSlide(3)" alt="">
+  </div>
+  <div class="column collection-image">
+    <img class="img-responsive hover-shadow cursor" src="img/4_standard.jpg" onclick="openModal();currentSlide(4)" alt="">
+  </div>
+  
+  
+  <div class="column collection-image">
+    <img class="img-responsive" src="img/1_standard.jpg" onclick="openModal();currentSlide(1)" alt="">
+  </div>
+  <div class="column collection-image">
+    <img class="img-responsive hover-shadow cursor" src="img/2_standard.jpg" onclick="openModal();currentSlide(2)" alt="">
+  </div>
+  <div class="column collection-image">
+    <img class="img-responsive hover-shadow cursor" src="img/3_standard.jpg" onclick="openModal();currentSlide(3)" alt="">
+  </div>
+  <div class="column collection-image">
+    <img class="img-responsive hover-shadow cursor" src="img/4_standard.jpg" onclick="openModal();currentSlide(4)" alt="">
+  </div>
+  
+  
+  <div class="column collection-image">
+    <img class="img-responsive hover-shadow cursor" src="img/1_standard.jpg" onclick="openModal();currentSlide(1)" alt="">
+  </div>
+  <div class="column collection-image">
+    <img class="img-responsive hover-shadow cursor" src="img/2_standard.jpg" onclick="openModal();currentSlide(2)" alt="">
+  </div>
+  <div class="column collection-image">
+    <img class="img-responsive hover-shadow cursor" src="img/3_standard.jpg" onclick="openModal();currentSlide(3)" alt="">
+  </div>
+  <div class="column collection-image">
+    <img class="img-responsive hover-shadow cursor" src="img/4_standard.jpg" onclick="openModal();currentSlide(4)" alt="">
+  </div>
+  
+  
+  
+  
+  
+  
+  
+      <div id="for-hide-show">
+  <div class="column collection-image">
+    <img class="img-responsive hover-shadow cursor" src="img/1_standard.jpg" onclick="openModal();currentSlide(1)" alt="">
+  </div>
+  <div class="column collection-image">
+    <img class="img-responsive hover-shadow cursor" src="img/2_standard.jpg" onclick="openModal();currentSlide(2)" alt="">
+  </div>
+  <div class="column collection-image">
+    <img class="img-responsive hover-shadow cursor" src="img/3_standard.jpg" onclick="openModal();currentSlide(3)" alt="">
+  </div>
+  </div>
+    <button id="show-more">Show more collection</button>
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+<div class="easyzoom easyzoom--overlay">
+         <a href="img/1_zoom.jpg">
+      <img src="img/1_standard.jpg" alt=""></a></div>    </div>
+
+
+
+  <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      			<div class="easyzoom easyzoom--overlay">
+         <a href="img/2_zoom.jpg">
+      <img src="img/2_standard.jpg" alt=""></a></div>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <div class="easyzoom easyzoom--overlay">
+         <a href="img/3_zoom.jpg">
+      <img src="img/3_standard.jpg" alt=""></a></div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+<div class="easyzoom easyzoom--overlay">
+         <a href="img/4_zoom.jpg">
+      <img src="img/4_standard.jpg" alt=""></a></div>
+          </div>
+          
+          
+          
+          
+          
+          
+           <div class="mySlides">
+      <div class="numbertext">5 / 4</div>
+<div class="easyzoom easyzoom--overlay">
+         <a href="img/1_zoom.jpg">
+      <img src="img/1_standard.jpg" alt=""></a></div>    </div>
+
+
+
+  <div class="mySlides">
+      <div class="numbertext">6 / 4</div>
+      			<div class="easyzoom easyzoom--overlay">
+         <a href="img/2_zoom.jpg">
+      <img src="img/2_standard.jpg" alt=""></a></div>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">7 / 4</div>
+      <div class="easyzoom easyzoom--overlay">
+         <a href="img/3_zoom.jpg">
+      <img src="img/3_standard.jpg" alt=""></a></div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">8 / 4</div>
+<div class="easyzoom easyzoom--overlay">
+         <a href="img/4_zoom.jpg">
+      <img src="img/4_standard.jpg" alt=""></a></div>
+          </div>
+    
+    
+    
+     <div class="mySlides">
+      <div class="numbertext">9 / 4</div>
+<div class="easyzoom easyzoom--overlay">
+         <a href="img/1_zoom.jpg">
+      <img src="img/1_standard.jpg" alt=""></a></div>    </div>
+
+
+
+  <div class="mySlides">
+      <div class="numbertext">10 / 4</div>
+      			<div class="easyzoom easyzoom--overlay">
+         <a href="img/2_zoom.jpg">
+      <img src="img/2_standard.jpg" alt=""></a></div>
+    </div>
+
+   <div class="mySlides">
+      <div class="numbertext">11 / 4</div>
+<div class="easyzoom easyzoom--overlay">
+         <a href="img/3_zoom.jpg">
+      <img src="img/3_standard.jpg" alt=""></a></div>    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">12 / 4</div>
+<div class="easyzoom easyzoom--overlay">
+         <a href="img/4_zoom.jpg">
+      <img src="img/4_standard.jpg" alt=""></a></div>
+          </div>
+    
+    
+    
+     <div class="mySlides">
+      <div class="numbertext">13 / 4</div>
+<div class="easyzoom easyzoom--overlay">
+         <a href="img/1_zoom.jpg">
+      <img src="img/1_standard.jpg" alt=""></a></div>    </div>
+
+
+
+  <div class="mySlides">
+      <div class="numbertext">14 / 4</div>
+      			<div class="easyzoom easyzoom--overlay">
+         <a href="img/2_zoom.jpg">
+      <img src="img/2_standard.jpg" alt=""></a></div>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">15 / 4</div>
+      <div class="easyzoom easyzoom--overlay">
+         <a href="img/3_zoom.jpg">
+      <img src="img/3_standard.jpg" alt=""></a></div>
+    </div>
+    
+    
+    <a class="prev" onclick="plusSlides(-1)"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a>
+    <a class="next" onclick="plusSlides(1)"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+
+
+</div>
+
+</div>
+
+</div>
+</section>
+ 
+		
+<!--******** start footer *********-->
+<footer id="Contact-us" class="container-fluid">
+  <div class="container footer_for_padding">
+    <div class="footer_row first wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <h3>My Account</h3>
+      <ul>
+        <li><a href="#">About us</a> </li>
+        <li><a href="#">Contact us</a> </li>
+        <li><a href="#">My account</a> </li>
+        <li><a href="#">Orders history</a> </li>
+        <li><a href="#">Advanced search</a> </li>
+      </ul>
+    </div>
+    <div class="footer_row second wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+      <h3>Contact Information</h3>
+      <ul>
+        <li><i class="fa fa-location-arrow" aria-hidden="true"></i><span>Unit A1, 20th Floor, MG Tower 133 Hoi Bun road, Kwun Tong Lorem Ipsum</span></li>
+        <li><i class="fa fa-phone" aria-hidden="true"></i><span>+000 3125 1900</span></li>
+        <li><i class="fa fa-envelope" aria-hidden="true"></i><span>info@companyname.com</span></li>
+      </ul>
+    </div>
+    <div class="footer_row Third wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
+      <h3>Product Categories</h3>
+      <ul>
+        <li><a href="#">Lorem Ipsum </a> </li>
+        <li><a href="#">Lorem Ipsum Dummy </a> </li>
+        <li><a href="#">Lorem Ipsum Text </a> </li>
+        <li><a href="#">Lorem Ipsum Dummy </a> </li>
+        <li><a href="#">Lorem Ipsum</a> </li>
+      </ul>
+    </div>
+    <div class="footer_row fourth wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms">
+      <h3> CREDIT CARDS </h3>
+      <ul>
+        <li><a href="#">Make Payment/Check Balance </a> </li>
+        <li><a href="#">Credit Cards Offers </a> </li>
+        <li><a href="#">Apply Now </a> </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<!--start last footer-->
+
+<div class="container footer-last-section">
+  <div class="footer-last-text">
+    <p>companyname.com © 2017. All Rights Reserved. </p>
+  </div>
+  <div class="footer-last-text link-icon">
+    <ul>
+      <li><a href="#"><img src="img/footer-last-icon-1.jpg" alt=""/></a> </li>
+      <li><a href="#"><img src="img/footer-last-icon-2.jpg" alt=""/></a> </li>
+      <li><a href="#"><img src="img/footer-last-icon-3.jpg" alt=""/></a> </li>
+      <li><a href="#"><img src="img/footer-last-icon-4.jpg" alt=""/></a> </li>
+      <li><a href="#"><img src="img/footer-last-icon-5.jpg" alt=""/></a> </li>
+    </ul>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- for pop up -->
+
+
+
+	
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="js/zooming.js"></script>
+	<script>
+		// Instantiate EasyZoom instances
+		var $easyzoom = $('.easyzoom').easyZoom();
+
+		// Setup thumbnails example
+		var api1 = $easyzoom.filter('.easyzoom--with-thumbnails').data('easyZoom');
+
+		$('.thumbnails').on('click', 'a', function(e) {
+			var $this = $(this);
+
+			e.preventDefault();
+
+			// Use EasyZoom's `swap` method
+			api1.swap($this.data('standard'), $this.attr('href'));
+		});
+
+		// Setup toggles example
+		var api2 = $easyzoom.filter('.easyzoom--with-toggle').data('easyZoom');
+
+		$('.toggle').on('click', function() {
+			var $this = $(this);
+
+			if ($this.data("active") === true) {
+				$this.text("Switch on").data("active", false);
+				api2.teardown();
+			} else {
+				$this.text("Switch off").data("active", true);
+				api2._init();
+			}
+		});
+	</script>
+
+
+
+
+
+<script>
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
+
+<!-- show more button -->
+<script>
+$(document).ready(function(){
+    $("#show-more").click(function(){
+        $("#show-more").hide();
+    });
+    $("#show-more").click(function(){
+        $("#for-hide-show").show();
+    });
+});
+</script>
+
+
+</body>
+</html>
